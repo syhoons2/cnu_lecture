@@ -13,8 +13,8 @@ public class Player {
 		this.name = name;
 	}
 	
-	public void setWeapon(Object obj) {
-		WeaponStrategy strategy = (WeaponStrategy)obj;
+	public void setWeapon(WeaponStrategy strategy) {
+		
 		this.weaponStrategy = strategy;
 	}
 	
